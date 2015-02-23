@@ -1,0 +1,27 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.error {
+	/* supply height to ensure consistent positioning for every browser */
+	height:16px;
+	line-height:16px;
+	border:1px solid #FFDBD6;
+	font-size:12px;
+	color:#000;
+	padding:3px 10px 3px 25px;
+	margin-left:-2px;
+	background:#FFF7F4 url(../../../images/webui/ico-info.png) no-repeat;
+	background-position:5px -47px;
+
+
+	/* CSS3 spicing for mozilla and webkit */
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	-moz-border-radius-bottomleft:0;
+	-moz-border-radius-topleft:0;
+	-webkit-border-bottom-left-radius:0;
+	-webkit-border-top-left-radius:0;
+
+	-moz-box-shadow:0 0 6px #ddd;
+	-webkit-box-shadow:0 0 6px #ddd;
+}

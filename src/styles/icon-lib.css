@@ -1,0 +1,55 @@
+/*list icons in dashboard*/
+.icon-list { margin:2px -18px -15px 0; }
+.icon-list li {margin:0 17px 13px 0; float:left; }
+
+.ico-btn {opacity:.5; display:inline-block; vertical-align:top; margin:0 3px 0 2px; width:16px; height:16px;  border:none !important; -moz-box-shadow:none !important; -webkit-box-shadow:none !important;  -khtml-box-shadow:none !important;  box-shadow:none !important; }
+.ico-btn:hover {opacity:1.0;}
+.ico-btn span {display:none;}
+
+.ico-text {width:16px; height:16px; display:inline-block; vertical-align:middle; margin:0 4px 0 0 !important}
+.ico-text-trash {background:url(..e) no-repeat  !important}
+.ico-text-edit {background:url(../images/webui/icons/ico-lib1.png) no-repeat -16px 0px !important}
+.ico-text-share {background:url(../images/webui/icons/ico-lib1.png) no-repeat -32px 0px !important}
+.ico-text-basket {background:url(../images/webui/icons/ico-lib1.png) no-repeat -48px 0px !important}
+.ico-text-pic {background:url(../images/webui/icons/ico-lib1.png) no-repeat -64px 0px !important}
+.ico-text-like {background:url(../images/webui/icons/ico-lib1.png) no-repeat -80px 0px !important}
+.ico-text-cc {background:url(../images/webui/icons/ico-lib1.png) no-repeat -96px 0px !important}
+.ico-text-home {background:url(../images/webui/icons/ico-lib1.png) no-repeat -112px 0px !important}
+.ico-text-gear {background:url(../images/webui/icons/ico-lib1.png) no-repeat -128px 0px !important}
+.ico-text-profile {background:url(../images/webui/icons/ico-lib1.png) no-repeat -144px 0px !important}
+.ico-text-plus {background:url(../images/webui/icons/ico-lib1.png) no-repeat -160px 0px !important}
+.ico-text-print {background:url(../images/webui/icons/ico-lib1.png) no-repeat -176px 0px !important}
+.ico-text-shipping {background:url(../images/webui/icons/ico-lib1.png) no-repeat -192px 0px !important}
+.ico-text-invoice {background:url(../images/webui/icons/ico-lib1.png) no-repeat -208px 0px !important}
+.ico-text-phone {background:url(../images/webui/icons/ico-lib1.png) no-repeat -224px 0px !important}
+.ico-text-email {background:url(../images/webui/icons/ico-lib1.png) no-repeat 0 -16px !important}
+.ico-text-power {background:url(../images/webui/icons/ico-lib1.png) no-repeat -16px -16px !important}
+.ico-text-umbrella {background:url(../images/webui/icons/ico-lib1.png) no-repeat -32px -16px !important}
+.ico-text-chat {background:url(../images/webui/icons/ico-lib1.png) no-repeat -48px -16px !important}
+.ico-text-date {background:url(../images/webui/icons/ico-lib1.png) no-repeat -64px -16px !important}
+.ico-text-facebook {background:url(../images/webui/icons/ico-lib1.png) no-repeat -80px -16px !important}
+.ico-text-mobile {background:url(../images/webui/icons/ico-lib1.png) no-repeat -96px -16px !important}
+.ico-text-camera {background:url(../images/webui/icons/ico-lib1.png) no-repeat -112px -16px !important}
+.ico-text-twitter {background:url(../images/webui/icons/ico-lib1.png) no-repeat -128px -16px !important}
+.ico-text-money {background:url(../images/webui/icons/ico-lib1.png) no-repeat -144px -16px !important}
+.ico-text-form {background:url(../images/webui/icons/ico-lib1.png) no-repeat -160px -16px !important}
+.ico-text-film {background:url(../images/webui/icons/ico-lib1.png) no-repeat -176px -16px !important}
+.ico-text-zip {background:url(../images/webui/icons/ico-lib1.png) no-repeat -192px -16px !important}
+.ico-text-rss {background:url(../images/webui/icons/ico-lib1.png) no-repeat -208px -16px !important}
+.ico-text-database {background:url(../images/webui/icons/ico-lib1.png) no-repeat -224px -16px !important}
+.ico-text-brainstorm {background:url(../images/webui/icons/ico-lib1.png) no-repeat 0px -32px !important}
+.ico-text-bestseller {background:url(../images/webui/icons/ico-lib1.png) no-repeat -16px -32px !important}
+.ico-text-paint {background:url(../images/webui/icons/ico-lib1.png) no-repeat -32px -32px !important}
+.ico-text-collaborate {background:url(../images/webui/icons/ico-lib1.png) no-repeat -48px -32px !important}
+.ico-text-time {background:url(../images/webui/icons/ico-lib1.png) no-repeat -64px -32px !important}
+.ico-text-paypal {background:url(../images/webui/icons/ico-lib1.png) no-repeat -80px -32px !important}
+.ico-text-signout {background:url(../images/webui/icons/ico-lib1.png) no-repeat -96px -32px !important}
+.ico-text-world {background:url(../images/webui/icons/ico-lib1.png) no-repeat -112px -32px !important}
+.ico-text-category {background:url(../images/webui/icons/ico-lib1.png) no-repeat -128px -32px !important}
+.ico-text-success {background:url(../images/webui/icons/ico-lib1.png) no-repeat -144px -32px !important}
+.ico-text-close {background:url(../images/webui/icons/ico-lib1.png) no-repeat -160px -32px !important}
+.ico-text-info {background:url(../images/webui/icons/ico-lib1.png) no-repeat -176px -32px !important}
+.ico-alert-warning {background:url(../img/ico-alerts.png) no-repeat 0 0 !important}
+.ico-alert-success {background:url(../img/ico-alerts.png) no-repeat -16px 0 !important}
+.ico-alert-info {background:url(../img/ico-alerts.png) no-repeat -32px 0 !important}
+.ico-alert-error {background:url(../img/ico-alerts.png) no-repeat -48px 0 !important}

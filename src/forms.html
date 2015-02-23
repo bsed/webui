@@ -1,0 +1,353 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>表单元素测试</title>
+<link href="styles/960.css" rel="stylesheet" type="text/css"/>
+<link href="styles/webui.css" rel="stylesheet" type="text/css"/>
+
+<link href="styles/uniform.default.css" rel="stylesheet" type="text/css"/>
+
+<link href="styles/webui-buttons.css" rel="stylesheet" type="text/css"/>
+<link href="styles/jqueryTools/forms/default.css" rel="stylesheet" type="text/css"/>
+
+<script src="scripts/jquery-1.6.2.min.js" type="text/javascript"></script>
+
+<script src="scripts/jquery.tools.min.js" type="text/javascript"></script>
+<script src="scripts/jquery.tools.form.cn.js" type="text/javascript"></script>
+
+<script src="scripts/jquery.uniform.min.js" type="text/javascript"></script>
+
+
+</head>
+
+<body class="macbg1">
+<div class="container_12 whitebg">
+
+	<div class="head graybg-d1 grid_12">
+    		<div class="logo grid_8 alpha">
+            	<h1 class="white">WebUI-FrameWork</h1>
+            </div>
+             <div class="logo grid_4 omega">
+            	<ul  class=" linkbar white">
+                   <li><a href="#">welcome: Mr </a></li>
+                    <li><a href="#" class="orange-l1">my account </a></li>
+                    <li><span>my account </span></li>
+                </ul>
+            </div>
+    </div>
+    
+    <div class="clear-spacer"></div>
+    
+    
+    <div class="grid_3">
+        <div class="panel">
+       		 <p>&nbsp;</p>
+             <p><a class="btn btn-large" href="#">链接按钮</a></p>
+             
+             <p>&nbsp;</p>
+             <p>&nbsp;</p>
+             <p>&nbsp;</p>
+             <p>&nbsp;</p>
+             <p>&nbsp;</p>
+             <p>&nbsp;</p>
+             <p>&nbsp;</p>
+             
+        </div>
+    </div>
+    
+    <div class="grid_9">
+        <div class="panel">
+             <div class="phead">
+                 <h3>表格布局表单</h3>
+             </div>
+             <div class="pcontent  graybg-l2">
+                <div class="form form-float">
+                     <form id="simpleForm" action="#">
+                     
+                       <div class="group">
+                       			<h1 class="blue">基本信息</h1>
+                                <p>
+                                    <label class="label" for="name">名称：</label>
+                                    <input  type="text" name="name"/>
+                                   
+                                </p>
+                                
+                                <p>
+                                    <label class="label" for="name">分类：</label>
+                                    <select  name="category">
+                                        <option value="1">文学</option>
+                                         <option value="2">科学</option>
+                                          <option value="3">儿童</option>
+                                           <option value="4">哲学</option>
+                                    
+                                    </select>
+                                </p>
+                               
+                                <p>
+                                    <label class="label" for="name">电话：</label>
+                                    <input  type="text" name="name"/>
+                                    <span class="hint">填写手机或电话号码均可...</span>
+                                </p>
+                                <br class="clearf"/>
+                        </div>
+                        
+                        
+                         <div class="group">
+                       			<h1 class="blue">高级信息</h1>
+                                    <p>
+                                      <label class="label">性别：</label>
+                                      <input type="radio" name="sex" /><label for="sex">男&nbsp;</label>
+                                      <input type="radio" name="sex" /><label for="sex">女&nbsp;</label>
+                                    </p>
+                                    
+                                    <p>
+                                      <label class="label">爱好：</label>
+                                      <input type="checkbox" name="hobby" /><label for="hobby">游泳&nbsp;</label>
+                                      <input type="checkbox" name="hobby" /><label for="hobby">篮球&nbsp;</label>
+                                      <input type="checkbox" name="hobby" /><label for="hobby">音乐&nbsp;</label>
+                                      <input type="checkbox" name="hobby" /><label for="hobby">阅读&nbsp;</label>
+                                    </p>
+                                    
+                                    
+                                    <p>
+                                        <label class="label" for="name">联系地址：</label>
+                                        <input  type="text" name="name"/>
+                                    </p>
+                                    
+                                    <p>
+                                        <label class="label" for="name">标题：</label>
+                                        <input  type="text" name="name" size="45"/>
+                                    </p>
+                                    
+                                    <p>
+                                        <label class="label" for="name">备注：</label>
+                                        <textarea  type="text" name="memo" cols="35" rows="5"></textarea>
+                                    </p>
+                                    <br class="clearf"/>
+                                </div>    
+                        
+                       
+                         <p>
+                                   
+                             <label class="label" for="name">&nbsp;</label>
+                           <button type="button" class="btn" >  提交</button>&nbsp;
+                            <button type="reset"  class="btn">  清空</button>
+                        </p>
+                       
+                     </form>
+                </div>
+              
+             </div>
+             
+             
+             
+             
+        </div>
+    </div>
+    
+    <div class="clear-spacer"></div>
+    
+    <div class="grid_12 panel nopad">
+                 <div class="phead">
+                     <h3>表格布局表单(带验证)</h3>
+                 </div>
+                 <div class="pcontent">
+                        <div  class="prefix_2"> 
+                             <form id="simpleForm2" action="#" novalidate="novalidate">
+                               <table border="0" cellpadding="0" cellspacing="0" class="form " width="80%">
+                                   <tr>
+                                       <td><label class="label" for="name"><em>*</em>名称：</label>
+                                            <input  type="text" name="name"  required="required"/>
+                                            <span class="hint">请填写英文字母或数字</span>
+                                        </td>
+                                       <td>
+                                          <label class="label" for="name">电子邮件：</label>
+                                           <input type="email" name="email" required="required" />
+                                       </td>
+                                    
+                                   </tr>
+                                   
+                                   <tr>
+                                   		<td>
+                                            <label class="label" for="name">年龄：</label>
+                                            <input type="number" name="age" size="4" min="5" max="50" />
+                                        </td>
+                                   		<td>
+                                             <label class="label" for="name">分类：</label>
+                                            <select  name="category">
+                                                   <option value="1">文学</option>
+                                                   <option value="2">科学</option>
+                                                   <option value="3">儿童</option>
+                                                   <option value="4">哲学</option>   
+                                            </select>
+                                        </td>
+                                   </tr>
+                                   
+                                   <tr>
+                                   		<td>
+                                              <label class="label">性别：</label>
+                                              <input type="radio" name="sex" /><label for="sex">男&nbsp;</label>
+                                              <input type="radio" name="sex" /><label for="sex">女&nbsp;</label>
+                                        </td>
+                                        <td>
+                                        <label class="label">爱好：</label>
+                                      <input type="checkbox" name="hobby" /><label for="hobby">游泳&nbsp;</label>
+                                      <input type="checkbox" name="hobby" /><label for="hobby">篮球&nbsp;</label>
+                                      <input type="checkbox" name="hobby" /><label for="hobby">音乐&nbsp;</label>
+                                      <input type="checkbox" name="hobby" /><label for="hobby">阅读&nbsp;</label>
+                                        </td>
+                                   </tr>
+                                   
+                                   <tr>
+                                   		<td colspan="2">
+                                           <label class="label" for="name">标题：</label>
+                                           <input  type="text" name="name" size="80"/>
+                                        </td>
+                                      
+                                   </tr>
+                                   
+                                   <tr>
+                                   		<td colspan="2">
+                                            <label class="label" for="name">备注：</label>
+                                           <textarea  type="text" name="memo" cols="58" rows="5"></textarea>
+                                        </td>
+                                      
+                                   </tr>
+                                   
+                                   <tr>
+                                   		
+                                        <td colspan="2">
+                                            <label class="label" for="name">&nbsp;</label>
+                                            <button type="submit" class="btn" >  提交</button>&nbsp;
+                                            <button type="reset"  class="btn">  清空</button>
+                                        </td>
+                                   </tr>
+                               
+                               </table>
+                             </form>
+                      </div> 
+                  
+                 </div>    
+ </div>   
+    <div class="clear-spacer"></div>
+    
+     <div class="grid_12">
+        <div class="panel">
+             <div class="phead">
+                 <h3>表单带验证</h3>
+             </div>
+             <div class="pcontent graybg-l2">
+                <div class="form form-float">
+                     <form id="simpleForm3" action="#" novalidate="novalidate">
+                        <p>
+                        
+                            <label class="label" for="userName">名称：</label>
+                          
+                            <input  type="text" name="userName" required="required"  />
+                             
+                        </p>
+                        
+                        <p>
+                            <label class="label" for="category">分类：</label>
+                            <select  name="category">
+                                <option value="1">文学</option>
+                                 <option value="2">科学</option>
+                                  <option value="3">儿童</option>
+                                   <option value="4">哲学</option>
+                            
+                            </select>
+                        </p>
+                       
+                        <p>
+                             <label class="label" for="email">电子邮件：</label>
+                             <input type="email" name="email" required="required" />
+                             <span class="hint">请填写有效的电子邮件...</span>
+                        </p>
+                        
+                        <p>
+                          <label class="label">性别：</label>
+                          <input type="radio" name="sex" /><label for="sex">男&nbsp;</label>
+                          <input type="radio" name="sex" /><label for="sex">女&nbsp;</label>
+                        </p>
+                        
+                        <p>
+                           <label class="label" for="age">年龄</label>
+                           <input type="number" name="age" size="4" min="5" max="50" />
+                        </p>
+                        
+                        <p>
+                          <label class="label">爱好：</label>
+                          <input type="checkbox" name="hobby" /><label for="hobby">游泳&nbsp;</label>
+                          <input type="checkbox" name="hobby" /><label for="hobby">篮球&nbsp;</label>
+                          <input type="checkbox" name="hobby" /><label for="hobby">音乐&nbsp;</label>
+                          <input type="checkbox" name="hobby" /><label for="hobby">阅读&nbsp;</label>
+                        </p>
+                        
+                        
+                        <p>
+                            <label class="label" for="address">联系地址：</label>
+                            <input  type="text" name="address" required="required"/>
+                        </p>
+                        
+                        <p>
+                            <label class="label" for="bt">标题：</label>
+                            <input  type="text" name="bt" size="45"  required="required" title="请输入标题"/>
+                        </p>
+                        
+                        <p>
+                            <label class="label" for="name">备注：</label>
+                            <textarea  type="text" name="memo" cols="35" rows="5" required="required"></textarea>
+                        </p>
+                        
+                       
+                        <p>
+                             <label class="label" for="name">&nbsp;</label>
+                           <button type="submit" class="btn btn-large" >  提交</button>&nbsp;
+                            <button type="reset"  class="btn btn-large">  清空</button>
+                        </p>
+                       
+                     </form>
+                </div>
+              
+             </div>
+             
+             
+             
+             
+        </div>
+    </div>
+    
+    <div class="clear-spacer"></div>   
+    
+    
+    <div class="grid_12 panel foot silverbg"  >
+             <p><a href="#">welcome: Mr </a>  |  <a href="#" class="orange-l1">my account </a> | <span>my account </span></p>
+             <p>Copyrights  WebFD 20011－2015</p>
+      </div>
+      <div class="clear"></div>
+       <div class="spacer"></div>
+    
+</div>   
+
+<script type="text/javascript" charset="utf-8"> 
+      $(function(){
+		 cnValidate();
+         $("#simpleForm2").validator({
+			      position: 'bottom left',
+				  offset:[3,2],
+				  lang:'cn'
+			});
+		
+		
+	    $("#simpleForm3").validator({
+			     lang:'cn',
+				 offset:[0,5],
+				 inputEvent:'blur'
+			});
+	 	//$("input, textarea, select").uniform();
+      });
+    </script> 
+
+</body>
+</html>
